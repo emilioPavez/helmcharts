@@ -1,0 +1,10 @@
+image:
+  repository: vf-fluentd
+  tag: v3.1.0
+resources:
+  limits:
+    cpu: 100m
+    memory: 500Mi
+  requests:
+    cpu: 100m
+    memory: 200Mi
