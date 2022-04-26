@@ -1,24 +1,25 @@
 apiVersion: v1
 entries:
-  fluent:
+  Jagertracing:
   - apiVersion: v2
-    appVersion: 3.1.0
-    created: "2022-04-26T15:19:59.176675338-04:00"
-    description: A Helm chart for Kubernetes
-    digest: 654d46ff0ea9ef406498a5a7d8e0d71d2d25126830152d25496fe7bac51be104
-    name: fluent
+    appVersion: 1.22.0
+    created: "2022-04-26T15:41:05.305154946-04:00"
+    description: A Jaeger Helm chart for Kubernetes
+    digest: 7f1cc5f4566337ebd1d5eab077b08ce2d92ed8f67894e7f7970e54fb682f6df1
+    name: Jagertracing
     type: application
     urls:
-    - fluent-0.1.0.tgz
+    - charts/Jagertracing-0.1.0.tgz
     version: 0.1.0
+  fluentd:
   - apiVersion: v2
     appVersion: 3.1.0
-    created: "2022-04-26T15:19:59.1768899-04:00"
+    created: "2022-04-26T15:41:05.306176058-04:00"
     description: A Helm chart for Kubernetes
-    digest: 9b99ad2f5f2bb5116d4f3a4f978e58dd8306b859ad88ba76a32f7ab847f0bfcc
-    name: fluent
+    digest: fda6933cdeeeb3f8b4f7e5bb9f67ee2a8caa2114ef341a2899e9422336eed9cc
+    name: fluentd
     type: application
     urls:
-    - charts/fluent-0.1.0.tgz
+    - charts/fluentd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-26T15:19:59.175579065-04:00"
+generated: "2022-04-26T15:41:05.303456395-04:00"
