@@ -3,7 +3,17 @@ entries:
   fluent:
   - apiVersion: v2
     appVersion: 3.1.0
-    created: "2022-04-26T14:47:18.486900845-04:00"
+    created: "2022-04-26T15:19:59.176675338-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 654d46ff0ea9ef406498a5a7d8e0d71d2d25126830152d25496fe7bac51be104
+    name: fluent
+    type: application
+    urls:
+    - fluent-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2022-04-26T15:19:59.1768899-04:00"
     description: A Helm chart for Kubernetes
     digest: 9b99ad2f5f2bb5116d4f3a4f978e58dd8306b859ad88ba76a32f7ab847f0bfcc
     name: fluent
@@ -11,4 +21,4 @@ entries:
     urls:
     - charts/fluent-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-26T14:47:18.486426838-04:00"
+generated: "2022-04-26T15:19:59.175579065-04:00"
