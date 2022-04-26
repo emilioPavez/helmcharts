@@ -15,8 +15,8 @@ fullnameOverride: ""
 
 allInOne:
   enabled: false
-  image: vf-jaeger-agent
-  tag: 1.22.0
+  image: jaegertracing/all-in-one
+  tag: 1.29.0
   pullPolicy: IfNotPresent
   # samplingConfig: |-
   #   {
