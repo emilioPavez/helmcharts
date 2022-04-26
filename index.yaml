@@ -3,7 +3,7 @@ entries:
   Jagertracing:
   - apiVersion: v2
     appVersion: 1.22.0
-    created: "2022-04-26T16:18:32.471016394-04:00"
+    created: "2022-04-26T16:52:21.097093241-04:00"
     description: A Jaeger Helm chart for Kubernetes
     digest: 9ebffe131260ccf06ff2db3d50126cdae10504326a566ef13dcf983e62868da7
     name: Jagertracing
@@ -11,15 +11,56 @@ entries:
     urls:
     - charts/Jagertracing-0.1.0.tgz
     version: 0.1.0
+  fluent-bit:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Add ability to manually set clusterIP address."
+    apiVersion: v1
+    appVersion: 1.8.15
+    created: "2022-04-26T16:52:21.098206095-04:00"
+    description: Fast and lightweight log processor and forwarder or Linux, OSX and
+      BSD family operating systems.
+    digest: 4b872387e4ecd194445aa7c406db0fe934d029acc16691a0f0ff32bece5a8f4e
+    home: https://fluentbit.io/
+    icon: https://fluentbit.io/assets/img/logo1-default.png
+    keywords:
+    - logging
+    - fluent-bit
+    - fluentd
+    maintainers:
+    - email: eduardo@calyptia.com
+      name: edsiper
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: towmeykaw@gmail.com
+      name: Towmeykaw
+    - email: steve.hipwell@gmail.com
+      name: stevehipwell
+    name: fluent-bit
+    sources:
+    - https://github.com/fluent/fluent-bit/
+    urls:
+    - charts/fluent-bit-0.19.24.tgz
+    version: 0.19.24
   fluentd:
   - apiVersion: v2
-    appVersion: 3.1.0
-    created: "2022-04-26T16:18:32.471980279-04:00"
+    appVersion: v1.12.4
+    created: "2022-04-26T16:52:21.099307147-04:00"
     description: A Helm chart for Kubernetes
-    digest: a4057bb283b9912987a72ea11bb15d99784ccfdbc38d6573c9dfdb2afced20eb
+    digest: dd2a0a5e0456b69b489f0de9304ae63a911097da0046ffd4c7449aa677048b5f
+    home: https://www.fluentd.org/
+    icon: https://www.fluentd.org/images/miscellany/fluentd-logo_2x.png
+    maintainers:
+    - email: eduardo@treasure-data.com
+      name: edsiper
+    - email: diogo.filipe.tomas.guerra@cern.ch
+      name: dioguerra
     name: fluentd
-    type: application
+    sources:
+    - https://github.com/fluent/fluentd/
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
     urls:
-    - charts/fluentd-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-04-26T16:18:32.469234557-04:00"
+    - charts/fluentd-0.3.7.tgz
+    version: 0.3.7
+generated: "2022-04-26T16:52:21.095027653-04:00"
