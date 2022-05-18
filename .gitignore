@@ -4,6 +4,8 @@
 *.so
 *.dylib
 *.tgz
+*.tar
+./charts/*.tgz
 # Test binary, build with `go test -c`
 *.test
 
