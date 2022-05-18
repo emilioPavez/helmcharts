@@ -3,7 +3,7 @@ entries:
   Jagertracing:
   - apiVersion: v2
     appVersion: 1.22.0
-    created: "2022-04-26T17:02:58.743168122-04:00"
+    created: "2022-05-18T16:43:41.702933552-04:00"
     description: A Jaeger Helm chart for Kubernetes
     digest: 9ebffe131260ccf06ff2db3d50126cdae10504326a566ef13dcf983e62868da7
     name: Jagertracing
@@ -14,7 +14,7 @@ entries:
   fluentd-elasticsearch:
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2022-04-26T17:02:58.744787645-04:00"
+    created: "2022-05-18T16:43:41.712605786-04:00"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: da75beee993a6ecbe921390d1c491176436acce4379583e45b54938597596b90
     home: https://www.fluentd.org/
@@ -39,4 +39,15 @@ entries:
     urls:
     - charts/fluentd-elasticsearch-13.5.0.tgz
     version: 13.5.0
-generated: "2022-04-26T17:02:58.741055806-04:00"
+  spring:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-18T16:43:41.714807935-04:00"
+    description: A Helm chart for Kubernetes
+    digest: d955d50fdefc095529664a5110170160f1f23f2fac649e708880d2b47df76143
+    name: spring
+    type: application
+    urls:
+    - charts/spring-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-18T16:43:41.686079823-04:00"
