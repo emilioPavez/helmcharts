@@ -3,51 +3,23 @@ entries:
   Jagertracing:
   - apiVersion: v2
     appVersion: 1.22.0
-    created: "2022-05-18T17:21:08.757615615-04:00"
+    created: "2022-05-19T11:45:17.343879001-04:00"
     description: A Jaeger Helm chart for Kubernetes
-    digest: 9ebffe131260ccf06ff2db3d50126cdae10504326a566ef13dcf983e62868da7
+    digest: d6e1ad32f026f3cb3e943b39335dae051cdab29a3267760e5c5549f0e78946e6
     name: Jagertracing
     type: application
     urls:
-    - charts/Jagertracing-0.1.0.tgz
+    - Jagertracing-0.1.0.tgz
     version: 0.1.0
-  fluentd-elasticsearch:
-  - apiVersion: v2
-    appVersion: 4.0.0
-    created: "2022-05-18T17:21:08.766226253-04:00"
-    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
-    digest: da75beee993a6ecbe921390d1c491176436acce4379583e45b54938597596b90
-    home: https://www.fluentd.org/
-    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
-    keywords:
-    - fluentd
-    - elasticsearch
-    - multiline
-    - detect-exceptions
-    - logging
-    kubeVersion: '>=1.16.0-0'
-    maintainers:
-    - email: monotek23@gmail.com
-      name: monotek
-    name: fluentd-elasticsearch
-    sources:
-    - https://github.com/kokuwaio/helm-charts/tree/main/charts/fluentd-elasticsearch
-    - https://github.com/fluent/fluentd-kubernetes-daemonset
-    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
-    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
-    type: application
-    urls:
-    - charts/fluentd-elasticsearch-13.5.0.tgz
-    version: 13.5.0
   spring:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-18T17:21:08.768764249-04:00"
-    description: A Helm chart for Kubernetes
-    digest: d955d50fdefc095529664a5110170160f1f23f2fac649e708880d2b47df76143
+    created: "2022-05-19T11:45:17.344277829-04:00"
+    description: A Helm chart for Spring
+    digest: 068fcffdecf452a8a9f3250b1cd993923fbd97b3f326f75034b83b07eb6ae215
     name: spring
     type: application
     urls:
-    - charts/spring-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-05-18T17:21:08.748414338-04:00"
+    - spring-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-05-19T11:45:17.341982857-04:00"
