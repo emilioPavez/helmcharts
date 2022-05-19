@@ -9,7 +9,7 @@ entries:
     name: Jagertracing
     type: application
     urls:
-    - Jagertracing-0.1.0.tgz
+    - https://github.com/emilioPavez/helmcharts/tree/master/charts/Jagertracing-0.1.0.tgz
     version: 0.1.0
   spring:
   - apiVersion: v2
@@ -20,6 +20,6 @@ entries:
     name: spring
     type: application
     urls:
-    - spring-1.0.0.tgz
+    - https://github.com/emilioPavez/helmcharts/tree/master/charts/spring-1.0.0.tgz
     version: 1.0.0
 generated: "2022-05-19T11:45:17.341982857-04:00"
