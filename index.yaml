@@ -3,7 +3,7 @@ entries:
   Jagertracing:
   - apiVersion: v2
     appVersion: 1.22.0
-    created: "2022-05-19T11:45:17.343879001-04:00"
+    created: "2022-05-19T12:17:09.909511301-04:00"
     description: A Jaeger Helm chart for Kubernetes
     digest: d6e1ad32f026f3cb3e943b39335dae051cdab29a3267760e5c5549f0e78946e6
     name: Jagertracing
@@ -14,7 +14,7 @@ entries:
   spring:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-19T11:45:17.344277829-04:00"
+    created: "2022-05-19T12:17:09.90995344-04:00"
     description: A Helm chart for Spring
     digest: 068fcffdecf452a8a9f3250b1cd993923fbd97b3f326f75034b83b07eb6ae215
     name: spring
@@ -22,4 +22,4 @@ entries:
     urls:
     - spring-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-19T11:45:17.341982857-04:00"
+generated: "2022-05-19T12:17:09.906991748-04:00"
